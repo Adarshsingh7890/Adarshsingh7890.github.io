@@ -1,0 +1,343 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- --------- UNICONS ---------- -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+    <!-- --------- CSS ---------- -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="style3.css">
+    
+
+    <!-- --------- FAVICON ---------- -->
+    <link rel="shortcut icon" href="#" type="image/x-icon">
+
+    <title>Portfolio | Adarsh Singh</title>
+</head>
+<body>
+   <div class="container">
+    <!-- --------------- HEADER --------------- -->
+      <nav id="header">
+        <div class="nav-logo">
+            <p class="nav-name">Adarsh Singh</p>
+            <!-- <span>.</span> -->
+        </div>
+        <div class="nav-menu" id="myNavMenu">
+            <ul class="nav_menu_list">
+                <li class="nav_list">
+                    <a href="#home" class="nav-link active-link">Home</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#about" class="nav-link">About</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#experience" class="nav-link">Experiences</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#projects" class="nav-link">Projects</a>
+                    <div class="circle"></div>
+                </li>
+            </ul>
+        </div>
+        
+        <div class="nav-menu-btn">
+            <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+        </div>
+      </nav>
+
+
+    <!-- -------------- MAIN ---------------- -->
+    <main class="wrapper">
+       <!-- -------------- FEATURED BOX ---------------- -->
+       <section class="featured-box" id="home">
+          <div class="featured-text">
+            <div class="featured-text-card">
+                <span>Adarsh Singh</span>
+            </div>
+            <div class="featured-name">
+                <p>I'm <span class="typedText"></span></p>
+            </div>
+            <div class="featured-text-info">
+                <p>Backend developer skilled in creating efficient, scalable server-side applications.
+                </p>
+            </div>
+            <div class="featured-text-btn">
+                <!-- This is an example of a download link in HTML -->
+                <a href="assets\Adarsh_Resume.pdf" class="btn-download" download="Adarsh_Singh_Resume">Download Resume <i class="uil uil-file-alt"></i></a>
+            </div>
+            <div class="social_icons">
+                <a href="https://www.linkedin.com/in/adarshsingh2931/" class="icon" target="_blank"><i class="uil uil-linkedin-alt"></i></a>
+                <a href="https://github.com/Adarshsingh7890" class="icon" target="_blank"><i class="uil uil-github-alt"></i></a>
+                <a href="https://www.instagram.com/adarsh2516/" class="icon" target="_blank"><i class="uil uil-instagram"></i></a>
+
+                <!-- <div class="icon"><i class="uil uil-instagram"></i></div>
+                <div class="icon"><i class="uil uil-linkedin-alt"></i></div>    
+                <div class="icon"><i class="uil uil-github-alt"></i></div> -->
+            </div>
+          </div>
+          <div class="featured-image">
+            <div class="image">
+                <img src="assets\WhatsApp Image 2023-12-27 at 23.46.51_a8704ecd.jpg" alt="avatar">
+            </div>
+          </div>
+          
+
+       </section>
+       <!-- -------------- ABOUT BOX ---------------- -->
+       <section class="section" id="about">
+        <div class="top-header">
+          <h1>About Me</h1>
+        </div>
+        <div class="about-info">
+          <p>I am a graduate student at Penn State University with a strong background in Computer Science. I am proficient in languages such as C++, Java, Python and JavaScript and also with technologies like MySQL, Spring Boot, Django, AWS, Docker.</p>
+          <!-- <p>Additionally, I have experience working with content management systems (CMS) like WordPress.</p> -->
+        </div>
+        <div class = top-header>
+          <h1>Technical Skills</h1>
+        </div>
+        <div class="skills-container">
+          <div class="skills-box">
+            <div class="skills-header">
+              <h3>Frontend</h3>
+            </div>
+            <div class="skills-list">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>Bootstrap</span>
+              <span>JavaScript</span>
+            </div>
+          </div>
+          <div class="skills-box">
+            <div class="skills-header">
+              <h3>Languages</h3>
+            </div>
+            <div class="skills-list">
+              <span>JAVA</span>
+              <span>Python</span>
+              <span>C++</span>
+              <span>Go</span>
+            </div>
+          </div>
+          <div class="skills-box">
+            <div class="skills-header">
+              <h3>Technologies</h3>
+            </div>
+            <div class="skills-list">
+              <span>Spring Boot</span>
+              <span>Django</span>
+              <span>MySQL</span>
+              <span>AWS</span>
+              <span>Tensorflow</span>
+              <span>Pytorch</span>
+              <span>Linux</span>
+              <span>Git</span>
+              <span>gRPC</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+       <!-- -------------- PROJECT BOX ---------------- -->
+
+       <!-- <section class="section" id="projects">
+            <div class="top-header">
+                <h1>Projects</h1>
+            </div>
+            <div class="project-container">
+                <a href="projects.html" class="project-box">
+                    <i class="uil uil-briefcase-alt"></i>
+                    <h3>Projects</h3>
+                    <label></label>
+                </a>
+                <a href="experience.html" class="project-box">
+                    <i class="uil uil-award"></i>
+                    <h3>Experience</h3>
+                    <label></label>
+                </a>
+            </div>
+        </section> -->
+        <section class="experience-section" id="experience">
+          <h2 class="section-title">Experiences</h2>
+          <div class="experiences-container">
+              <!-- Experience 1 -->
+              <div class="experience-card">
+                  <div class="experience-content">
+                      <h3 class="experience-title">Graduate Assistant Operating Systems • Penn State University</h3>
+                      <p class="experience-duration">Aug 2023 - Present</p>
+                      <p class="experience-description">Conducting collaborative problem-solving sessions and office hours for student support.
+                        Spearheading the development of multi-threaded synchronization solutions with path expressions.
+                        Implementing synchronization logic for diverse scenarios such as Bounded Buffer, Readers-Writers problem and
+                        efficiently managing multiple threads using Pthreads.</p>
+                        <div class="experience-technologies">
+                          <span class="technology-tag">C++</span>
+                          <span class="technology-tag">Multi-threading</span>
+                          <span class="technology-tag">Pthreads</span>
+                          <span class="technology-tag">Synchronization</span>
+                        </div>
+                  </div>
+              </div>
+              <div class="experience-card">
+                <div class="experience-content">
+                    <h3 class="experience-title">Software Engineering Intern • Union Bank of India</h3>
+                    <p class="experience-duration">June 2022 - August 2022</p>
+                    <p class="experience-description">Developed a microservices-based system using Java Spring Boot, leading to a 30 % reduction in server load and
+                      improved scalability. Implemented JWT Token protection for enhanced security. Integrated an API gateway and Eureka server, optimizing system performance and security, resulting in a 20%
+                      reduction in response times. Technology Stack: Java, Spring Boot, Docker.</p>
+                      <span class="technology-tag">Java</span>
+                      <span class="technology-tag">Spring Boot</span>
+                      <span class="technology-tag">Docker</span>
+                      <span class="technology-tag">MySQL</span>
+                </div>
+            </div>
+            <div class="experience-card">
+              <div class="experience-content">
+                  <h3 class="experience-title">Research Assistant • University of Mumbai</h3>
+                  <p class="experience-duration">June 2021 - Dec 2021</p>
+                  <p class="experience-description">• Developed a deep learning system for brain tumor type and grade identification using image segmentation. Implemented and fine-tuned deep learning models (ResNet50, VGG16, Densenet121), yielding significant
+                    performance improvement of about 6%. Presented research at an international AI conference, with proceedings published in Springer’s ”Algorithms for
+                    Intelligent Systems.” Technology Stack : Python, TensorFlow, Django, HTML, CSS, Javascript.
+                    </p>
+                    <span class="technology-tag">Python</span>
+                    <span class="technology-tag">Tensorflow</span>
+                    <span class="technology-tag">Django</span>
+                    <span class="technology-tag">HTML</span>
+                    <span class="technology-tag">CSS</span>
+                    <span class="technology-tag">Javascript</span>
+              </div>
+          </div>
+            </div>
+          </section>
+        <section class="projects-section" id = "projects">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-container">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-image">
+                      <img src="assets\grpc-icon-color.png" alt="Project One">
+                    </div>
+                    <div class="project-content">
+                      <h3 class="project-title">Parallel Distributed File System in Java</h3>
+                      <p class="project-description">gRPC-based PFS, improving stability and reducing latency.  </p>
+                      <a href="https://github.com/Adarshsingh7890/PDFS" class="project-link">Learn More →</a>
+                    </div>
+                  </div>
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-image">
+                      <img src="assets\1200px-Go_Logo_Blue.svg.png" alt="Project One">
+                    </div>
+                    <div class="project-content">
+                      <h3 class="project-title">Key-Value Store implementation in Go</h3>
+                      <p class="project-description">Paxos-based key-value store in Go, enhancing scalability, reducing downtime.</p>
+                      <a href="https://github.com/Adarshsingh7890/Key-Value-Store" class="project-link">Learn More →</a>
+                    </div>
+                  </div>
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-image">
+                      <img src="assets\Symbol-Linux.jpg" alt="Project One">
+                    </div>
+                    <div class="project-content">
+                      <h3 class="project-title">Multi-threaded Synchronization in C++</h3>
+                      <p class="project-description">Multi-threaded synchronization in C++ using Pthreads, solving complex concurrency problems.</p>
+                      <a href="https://github.com/Adarshsingh7890/Multi-threaded-Synchronization-in-C-" class="project-link">Learn More →</a>
+                    </div>
+                  </div>
+                  <div class="project-card">
+                    <div class="project-image">
+                      <img src="assets\algorithms-logo.png" alt="Project One">
+                    </div>
+                    <div class="project-content">
+                      <h3 class="project-title">Disaster Response System</h3>
+                      <p class="project-description">Deep learning-based system for analyzing post-disaster aerial images, detecting damages, and optimizing response routes.</p>
+                      <a href="https://link.springer.com/chapter/10.1007/978-981-99-3608-3_24" class="project-link">Learn More →</a>
+                    </div>
+                  </div>
+                  <div class="project-card">
+                    <div class="project-image">
+                      <img src="assets\django-python-logo.png" alt="Project One">
+                    </div>
+                    <div class="project-content">
+                      <h3 class="project-title">Dermocare.AI</h3>
+                      <p class="project-description">Web app for skin lesion analysis using deep learning, featured in an international conference.</p>
+                      <a href="https://link.springer.com/chapter/10.1007/978-981-19-6004-8_4" class="project-link">Learn More →</a>
+                    </div>
+                  </div>
+                  <div class="project-card">
+                    <div class="project-image">
+                      <img src="assets\tensorflow-ar21.png" alt="Project One">
+                    </div>
+                    <div class="project-content">
+                      <h3 class="project-title">Tumordc.AI</h3>
+                      <p class="project-description">Deep learning-based brain tumor detection and classification system, utilizing advanced image processing techniques.</p>
+                      <a href="https://link.springer.com/chapter/10.1007/978-981-19-7041-2_40" class="project-link">Learn More →</a>
+                    </div>
+                  </div>
+            </div>
+        </section>
+      
+    
+
+       <!-- -------------- CONTACT BOX ---------------- -->
+
+       <!-- <section class="section" id="contact">
+          <div class="top-header">
+            <h1>Get in touch</h1>
+            <span>Open for Collaborations, Contact me here!!!</span>
+          </div>
+          <div class="row">
+             <div class="col">
+                <div class="contact-info">
+                    <h2>Find Me <i class="uil uil-corner-right-down"></i></h2>
+                    <p><i class="uil uil-envelope"></i> Email: singhadarsh7890@gmail.com</p>
+                    <p><i class="uil uil-phone"></i> Tel: +1 (857)468-8223</p>
+                </div>
+             </div>
+             
+          </div>
+       </section> -->
+
+    </main>
+
+
+    <!-- --------------- FOOTER --------------- -->
+    <footer>
+      <section  id = "contact"></section>
+        <div class="top-footer">
+            <p>Adarsh Singh</p>
+        </div>
+        <div class="middle-footer">
+            <p> Email: singhadarsh7890@gmail.com</p>
+            <p> Tel: +1 (857)468-8223</p>
+        </div>
+      
+        <div class="footer-social-icons">
+            <a href="https://www.instagram.com" target="_blank" class="icon instagram"><i class="uil uil-instagram"></i></a>
+            <a href="https://www.linkedin.com" target="_blank" class="icon linkedin"><i class="uil uil-linkedin-alt"></i></a>
+            <a href="https://www.github.com" target="_blank" class="icon github"><i class="uil uil-github-alt"></i></a>
+        </div>
+    </section>
+  </footer>
+
+    </div>
+
+
+
+
+    <!-- ----- TYPING JS Link ----- -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+       <!-- ----- SCROLL REVEAL JS Link----- -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- ----- MAIN JS ----- -->
+    <script src="main.js"></script>
+</body>
+</html> 

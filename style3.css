@@ -1,0 +1,43 @@
+.technology-tag {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 2px;
+    font-size: 0.8em;
+    background-color: #e7e7e7; /* light grey background */
+    border: 1px solid #dcdcdc; /* grey border */
+    border-radius: 6px; /* rounded corners */
+    color: #333; /* dark grey text */
+    margin-top: 10px;
+}
+
+.experience-card {
+    transform: scale(1);
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+    margin-top: 20px;
+}
+
+.experience-card:hover {
+    transform: scale(1.03);
+    opacity: 1;
+}
+
+.experience-technologies {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px; /* This sets the space between the tags */
+    margin-bottom: 10px; /* Space below the tags section */
+}
+
+@media (max-width: 768px) {
+    .technology-tag {
+        font-size: 0.7em; /* Smaller font size on smaller screens */
+        padding: 3px 7px; /* Smaller padding on smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .technology-tag {
+        font-size: 0.6em; /* Even smaller font size on very small screens */
+        padding: 2px 5px; /* Even smaller padding on very small screens */
+    }
+}
